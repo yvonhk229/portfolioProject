@@ -1,0 +1,885 @@
+{% load static %}
+<!DOCTYPE html> 
+<html>
+<head>
+	<!--YYYYYYYYYYYYYYYYYYYY META TAG YYYYYYYYYYYYYYYYYYYY -->
+	<meta charset="utf-8">  
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="A personal website built and deployed by Yvon KINHOU HOUNGBEDJI">
+
+	<meta name="keywords" content="portfolio, computer science, network administrator, developer, yvon, kinhou, houngbedji, data enthusiast">
+
+	<meta name="copyright" content="Yvon KINHOU HOUNGBEDJI">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!--YYYYYYYYYYYYYYYYYYYY TITLE TAG YYYYYYYYYYYYYYYYYYYY -->
+	<title>Yvon H.K. - Data Enthusiast Portfolio </title>
+
+
+	<!--YYYYYYYYYYYYYYYYYYYY FAVICON YYYYYYYYYYYYYYYYYYYY -->
+	<link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/img/favicon3.png' %}"> 
+
+
+	<!--YYYYYYYYYYYYYYYYYYYY BOXICONS YYYYYYYYYYYYYYYYYYYY-->
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/boxicons/css/boxicons.min.css' %}">
+
+
+	<!--YYYYYYYYYYYYYYYYYYYY GOOGLE FONT YYYYYYYYYYYYYYYYYYYY-->
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/fontawesome-free/css/all.css' %}">
+
+
+	<!--YYYYYYYYYYYYYYYYYYYY SWIPER CSS YYYYYYYYYYYYYYYYYYYY
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/swiper-bundle.min.css' %}">-->
+
+	<!--YYYYYYYYYYYYYYYYYYYY STYLE CSS YYYYYYYYYYYYYYYYYYYY-->
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/main.css' %}">	
+	
+</head>
+<body> 
+
+
+	<!--YYYYYYYYYYYYYYYYYYYY HEADER YYYYYYYYYYYYYYYYYYYY-->
+	<header class="header" id="header">
+		<nav class="nav container">
+			<a href="#home" class="nav_logo">H.K.Y</a>
+
+			<div class="nav_menu">
+				<ul class="nav_list">
+
+					<li class="nav_item">
+						<a href="#home" class="nav_link active-link"> 
+							<i class="bx bx-home-alt"></i>
+						</a>
+					</li>
+
+					<li class="nav_item">
+						<a href="#about" class="nav_link">
+							<i class="bx bxs-user"></i>
+						</a>
+					</li>
+
+					<li class="nav_item">
+						<a href="#skills" class="nav_link">
+							<i class="bx bx-book"></i>
+						</a>
+					</li>
+
+					<li class="nav_item">
+						<a href="#work" class="nav_link">
+							<i class="bx bx-briefcase-alt-2"></i>
+						</a>
+					</li>
+
+					<li class="nav_item">
+						<a href="#contact" class="nav_link">
+							<i class="bx bx-message-square-detail"></i>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+
+			<!--YYYYYYYYYYYYY THEME CHANGE BUTTON YYYYYYYYYYYYY
+			<i class="bx bx-moon change-theme" id="theme-button"></i>-->
+		</nav>
+	</header>
+
+
+
+	
+	<!--YYYYYYYYYYYYYYYYYYYY MAIN YYYYYYYYYYYYYYYYYYYY-->
+	<main class="main">
+
+		
+		<!--YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY HOME YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY-->
+		<section class="home section" id="home">
+			<div class="home_container container grid">
+
+				<!--YYY    *1*     YYY-->
+				<div class="home_data">
+
+					<span class="home_greeting">Hello I'm</span>
+
+					<h1 class="home_name">Yvon HOUNGBEDJI K.</h1>
+
+
+					<div class="home_educ_textAnime">
+
+						<h5 class="typeWriter" data-text='[ "Data Enthusiast", "Web Developper", "IT Technicien" ]'></h5>
+
+					</div>
+
+					<div class="home_buttons">
+
+						<a href="#work" class="button button--ghost home_button">
+							<span>See my work</span>
+						</a>
+
+						<a href="#contact" class="button">
+							<span>Get in touch</span>
+						</a>
+					</div>
+
+				</div>
+
+				<!--YYY    *2*     YYY-->
+				<div class="home_handle">
+						<img src="{% static 'img/my_pic2.png' %}" class="home_img">
+				</div>
+
+				<!--YYY    *3*     YYY-->
+				<div class="home_social">
+
+					<a href="http://www.linkedin.com/in/yvonhk" class="home_social-link" target="_blank">
+						<i class="bx bxl-linkedin-square"></i>
+					</a>
+
+					<a href="https://github.com/yvonhk229" class="home_social-link" target="_blank">
+						<i class="bx bxl-github"></i>
+					</a>
+
+					<a href="https://twitter.com/YvonHk?t=nh7TwBSDMhTqXRAii3ofPg&s=09" class="home_social-link" target="_blank">
+						<i class="bx bxl-twitter"></i>
+					</a>
+
+				</div>
+
+				<!--YYY    *4*     YYY-->
+				<a href="#about" class="home_scroll">
+					<i class="bx bx-mouse home_scroll-icon"></i>
+					<span class="home_scroll-name">Scroll Down</span>
+				</a>
+
+			</div>
+		</section>
+
+
+
+		<!--YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY ABOUT YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY-->
+		<section class="about section" id="about">
+
+			<!--YYY    *1*     YYY-->
+			<h2 class="section_title">About Me</h2>
+
+
+			<!--YYY    *2*     YYY-->
+			<div class="about_container container grid">
+				<img src="{% static 'img/my_pic.png' %}" alt="" class="about_img">
+
+				<div class="about_data">
+					<div class="about_info">
+
+						<div class="about_box">
+							<i class="bx bx-award about_icon"></i>
+							<h3 class="about_title">Experiences</h3>
+							<span class="about_subtitle">+1 Years</span>
+						</div>
+
+						<div class="about_box">
+							<i class="bx bx-briefcase-alt about_icon"></i>
+							<h3 class="about_title">My Goal</h3>
+							<span class="about_subtitle">Become a Reference</span>
+						</div>
+
+						<div class="about_box">
+							<i class="bx bx-support about_icon"></i>
+							<h3 class="about_title">Avalaible</h3>
+							<span class="about_subtitle">Online 24/7</span>
+						</div>
+
+					</div>
+
+					<div class="about_description" >
+
+						<p class="about_description-item" >
+							Hi, my name is Yvon I'm <span>Network Administrator</span>,<span> Data Enthusiast</span> and <span>Web Developer</span>. I  hold a Bachelor's degree in computer science.<br><br> Passionate about Big Data, I enjoy use my Skills and Data to resolve problems. As a Evolutionist, i am adept of WELL DONE job .<br><br> I'am available for short-term projects and long-term contracts.
+						</p>
+
+						
+					</div>
+
+					<a href="#contact" class="button about_button">Hire me</a>
+				</div>
+			</div>
+		</section>
+
+
+
+		<!--YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY SKILLS YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY-->
+		<section class="skills section" id="skills">
+			<!--YYY    *1*     YYY-->
+			<h2 class="section_title">My Skills</h2>
+
+			<!--YYY    *2*     YYY-->
+			<div class="skills_container container grid">
+
+				<div class="skills_content">
+					<h3 class="skills_title">Analyst Skills</h3>
+
+					<div class="skills_box">
+
+						<div class="skills_group">
+
+							<div class="skills_data">
+								<i class="bx bxs-badge-check"></i>
+
+								<div>
+									<h3 class="skills_name">Python Programming</h3>
+									<span class="skills_level">Basic</span>
+								</div>
+
+							</div>
+
+							<div class="skills_data">
+								<i class="bx bxs-badge-check"></i>
+
+								<div>
+									<h3 class="skills_name">Tableau Developer</h3>
+									<span class="skills_level">Intermediate</span>
+								</div>
+
+							</div>
+
+							<div class="skills_data">
+								<i class="bx bxs-badge-check"></i>
+
+								<div>
+									<h3 class="skills_name">Excel Developer</h3>
+									<span class="skills_level">Intermediate</span>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="skills_group">
+
+							<div class="skills_data">
+								<i class="bx bxs-badge-check"></i>
+
+								<div>
+									<h3 class="skills_name">Database Quering</h3>
+									<span class="skills_level">Intermediate</span>
+								</div>
+
+							</div>
+
+							<div class="skills_data">
+								<i class="bx bxs-badge-check"></i>
+
+								<div>
+									<h3 class="skills_name">Google Sheets Developer</h3>
+									<span class="skills_level">Intermediate</span>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+				<div class="skills_content">
+					<h3 class="skills_title">Network Administrator Skills</h3>
+
+					<div class="skills_box">
+
+						<div class="skills_group">
+
+							<div class="skills_data">
+								<i class="bx bxs-badge-check"></i>
+
+								<div>
+									<h3 class="skills_name">Maintenance</h3>
+									<span class="skills_level">Advanced</span>
+								</div>
+
+							</div>
+
+							<div class="skills_data">
+								<i class="bx bxs-badge-check"></i>
+
+								<div>
+									<h3 class="skills_name">Network Config</h3>
+									<span class="skills_level">Intermediate</span>
+								</div>
+
+							</div>
+
+							{% comment %} <div class="skills_data">
+								<i class="bx bxs-badge-check"></i>
+
+								<div>
+									<h3 class="skills_name">Equipment Config</h3>
+									<span class="skills_level">Intermediate</span>
+								</div>
+
+							</div> {% endcomment %}
+						</div>
+
+						<div class="skills_group">
+
+							<div class="skills_data">
+								<i class="bx bxs-badge-check"></i>
+
+								<div>
+									<h3 class="skills_name">Operating System</h3>
+									<span class="skills_level">Intermediate</span>
+								</div>
+
+							</div>
+
+							<div class="skills_data">
+								<i class="bx bxs-badge-check"></i>
+
+								<div>
+									<h3 class="skills_name">Equipment Config</h3>
+									<span class="skills_level">Intermediate</span>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+				<div class="skills_content">
+					<h3 class="skills_title">Developer Skills</h3>
+
+					<div class="skills_box">
+
+						<div class="skills_group">
+
+							<div class="skills_data">
+								<i class="bx bxs-badge-check"></i>
+
+								<div>
+									<h3 class="skills_name">Django</h3>
+									<span class="skills_level">Advanced</span>
+								</div>
+
+							</div>
+
+							{% comment %} <div class="skills_data">
+								<i class="bx bxs-badge-check"></i>
+
+								<div>
+									<h3 class="skills_name">JS</h3>
+									<span class="skills_level">Intermediate</span>
+								</div>
+
+							</div> {% endcomment %}
+
+							
+						</div>
+
+						<div class="skills_group">
+
+							{% comment %} <div class="skills_data">
+								<i class="bx bxs-badge-check"></i>
+
+								<div>
+									<h3 class="skills_name">HTML & CSS</h3>
+									<span class="skills_level">Advanced</span>
+								</div>
+
+							</div> {% endcomment %}
+
+							<div class="skills_data">
+								<i class="bx bxs-badge-check"></i> 
+
+								<div>
+									<h3 class="skills_name">React JS</h3>
+									<span class="skills_level">Advanced</span>
+								</div>
+
+							</div>
+
+							
+						</div>
+
+					</div>
+				</div>
+
+			</div>				
+		</section>
+
+
+
+		<!--YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY SERVICES YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY-->
+		<section class="services section">
+
+			<!--YYY    *1*     YYY-->
+			<h2 class="section_title">Topics of Interest </h2>
+
+
+			<!--YYY    *2*     YYY-->
+			<div class="services_container container grid">
+
+				<div class="services_card">
+					<h3 class="services_title">Data <br> Analytics</h3>
+
+					<span class="services_button">
+						See more <i class="bx bx-right-arrow-alt services_icon"></i>
+					</span>
+
+					<div class="services_modal">
+						<div class="services_modal-content">
+
+							<i class="bx bx-x services_modal-close"></i>
+
+							<h3 class="services_modal-title">Data Analytics</h3>
+
+							<p class="services_modal-description">
+								Explore Data for Storytelling and Prediction.
+							</p>
+
+							<ul class="services_modal-list">
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Custormer Analysis.
+									</p>
+								</li>
+
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Product Analysis.
+									</p>
+								</li>
+
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Predictive Analysis.
+									</p>
+								</li>
+
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Business Recommendations.
+									</p>
+								</li>
+
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="services_card">
+					<h3 class="services_title">Data <br> Engineering </h3>
+
+					<span class="services_button">
+						See more <i class="bx bx-right-arrow-alt services_icon"></i>
+					</span>
+
+					<div class="services_modal">
+						<div class="services_modal-content">
+
+							<i class="bx bx-x services_modal-close"></i>
+
+							<h3 class="services_modal-title">Data Engineering </h3>
+
+							<p class="services_modal-description">
+								Help Business Improve Data System and Data, Management.
+							</p>
+
+							<ul class="services_modal-list">
+
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Data Collect.
+									</p>
+								</li>
+
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Data Proccess.
+									</p>
+								</li>
+
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Data Storage.
+									</p>
+								</li>
+
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Database Design & Management.
+									</p>
+								</li>
+
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="services_card">
+					<h3 class="services_title">Web <br> Developper </h3>
+
+					<span class="services_button">
+						See more <i class="bx bx-right-arrow-alt services_icon"></i>
+					</span>
+
+					<div class="services_modal">
+						<div class="services_modal-content">
+
+							<i class="bx bx-x services_modal-close"></i>
+
+							<h3 class="services_modal-title">Web Developer</h3>
+
+							<p class="services_modal-description">
+								As a Web Developer, I help to Design and Create Website for 
+								Entreprises and Business. 
+							</p>
+
+							<ul class="services_modal-list">
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Frontend  with React Js.
+									</p>
+								</li>
+
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Backend Django.
+									</p>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="services_card">
+					<h3 class="services_title">Network <br> Administrator</h3>
+
+					<span class="services_button">
+						See more <i class="bx bx-right-arrow-alt services_icon"></i>
+					</span>
+
+					<div class="services_modal">
+						<div class="services_modal-content">
+
+							<i class="bx bx-x services_modal-close"></i>
+
+							<h3 class="services_modal-title">Network  Administrator</h3>
+
+							<p class="services_modal-description">
+								
+							</p>
+
+							<ul class="services_modal-list">
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										All Type of Maintenance.
+									</p>
+								</li>
+
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Installation and Management of System and Software.
+									</p>
+								</li>
+
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Design Network Achitecture.
+									</p>
+								</li>
+
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Network Administration.
+									</p>
+								</li>
+
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="services_card">
+					<h3 class="services_title">Others</h3>
+
+					<span class="services_button">
+						See more <i class="bx bx-right-arrow-alt services_icon"></i>
+					</span>
+
+					<div class="services_modal">
+						<div class="services_modal-content">
+
+							<i class="bx bx-x services_modal-close"></i>
+
+							<h3 class="services_modal-title">Teaching  && Collaboration</h3>
+
+							<p class="services_modal-description">
+								Also have some Soft Skills like :
+							</p>
+
+							<ul class="services_modal-list">
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Team Work.
+									</p>
+								</li>
+
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Leadership.
+									</p>
+								</li>
+
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Open Mind.
+									</p>
+								</li>
+
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Curiosity.
+									</p>
+								</li>
+
+								<li class="services_modal-item">
+									<i class="bx bx-check services_modal-icon"></i>
+									<p class="services_modal-info">
+										Easy Communication.
+									</p>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</section>
+
+
+		<!--YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY WORK YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY-->
+		<section class="work section" id="work">
+
+			<!--YYY    *1*     YYY-->
+			<h2 class="section_title">My Works</h2>
+
+			<!--YYY    *2*     YYY-->
+			<div class="work_filters">
+				<span class="work_item active-work" data-filter="all">All</span>
+				<span class="work_item" data-filter=".data">Data</span>
+				<span class="work_item" data-filter=".web">Web</span>
+				<span class="work_item" data-filter=".network">Network</span>
+			</div>
+
+				
+
+			<!--YYY    *3*     YYY-->
+			<div class="work_container container grid">
+
+
+				<div class="work1_card mix web">
+					
+					<img src="{% static 'img/2.png' %}" alt="" class="work1_img">
+
+						<!--YYY    *3* 
+						<h3 class="work_title">Web Design</h3>
+
+						<p class="work_description">
+							deeee
+						</p>YYY-->
+					
+						<div class="work1_overlay">
+							<h3 class="work1_title">Load Them Soon...</h3>
+
+							<p class="work1_description">
+								Still Make finition of them.
+							</p>
+
+							<a href="#" class="work1_light">
+					 	 		<i class="fa fa-eye work1_icon"></i>
+							</a>
+						</div>
+				</div>
+
+			</div>
+		</section>
+
+
+		<!--YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY CONTACT YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY-->
+		<section class="contact section" id="contact">
+
+			<!--YYY    *1*     YYY-->
+			<h2 class="section_title">Contact Me</h2>
+
+
+			<!--YYY    *2*     YYY-->
+			<div class="contact_container container grid">
+
+				<div class="contact_content">
+					<h3 class="contact_title">Talk to me</h3>
+
+					<div class="contact_info">
+
+						<div class="contact_card">
+
+							<i class="bx bx-mail-send contact_card-icon"></i>
+							<h3 class="contact_card-title">Email</h3>
+							<span class="contact_card-data">yvonhkcontact@gmail.com</span>
+
+							<a href="yvonhkcontact@gmail.com" target="_blank" class="contact_button">
+								Write me <i class="bx bx-pencil contact_button-icon"></i>
+							</a>
+						</div>
+
+						<div class="contact_card">
+
+							<i class="bx bxl-linkedin contact_card-icon"></i>
+							<h3 class="contact_card-title">Linkedin</h3>
+							<span class="contact_card-data">Yvon H.K.</span>
+
+							<a href="http://www.linkedin.com/in/yvonhk" target="_blank" class="contact_button">
+								Write me <i class="bx bx-pencil contact_button-icon"></i>
+							</a>
+						</div>
+
+						<div class="contact_card">
+
+							<i class="bx bxl-telegram  contact_card-icon"></i>
+							<h3 class="contact_card-title">Telegram</h3>
+							<span class="contact_card-data">+229 99993679</span>
+
+							<a href="https://t.me/yvon_hk" target="_blank" class="contact_button">
+								Write me <i class="bx bx-pencil contact_button-icon"></i>
+							</a>
+						</div>
+
+					</div>
+
+				</div>
+
+
+				<div class="contact_content">
+					<h3 class="contact_title">Write me your message</h3>
+
+					<form action="{% url 'home' %}" class="contact_form" method="post">
+
+						{% csrf_token %}
+
+						<div class="contact_form-div">
+							<label for="" class="contact_form-tag">Name</label>
+							{{ form.first_name }}
+							<!--<input type="text" placeholder="name" class="contact_form-input">-->
+						</div>
+
+						<div class="contact_form-div">
+							<label for="" class="contact_form-tag">Subject</label>
+							{{form.subject}}
+							<!--<input type="text" placeholder="subject" class="contact_form-input">-->
+						</div>
+
+						<div class="contact_form-div">
+							<label for="" class="contact_form-tag">Mail</label>
+							{{ form.emailid }}
+							<!--<input type="email" placeholder="mail" class="contact_form-input">-->
+						</div>
+
+						<div class="contact_form-div contact_form-area">
+							<label for="" class="contact_form-tag">Message</label>
+							{{form.message}}
+							<!--<textarea name="" rows="10" cols="30" placeholder="message" class="contact_form-input "></textarea>-->
+						</div>
+
+						<button class="button contact_button-form" type="submit"><span>Send Message</span></button>
+					</form>
+				</div>
+			</div>				
+		</section>
+
+	</main>
+
+
+
+	<!--YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY FOOTER YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY-->
+	<footer class="footer">
+
+		  		<!--YYY    *1*     YYY-->
+		  		<div class="footer_container container">
+		  			<h1 class="footer_title">Yvon H.K.</h1>
+
+		  			<ul class="footer_list">
+
+		  				<li>
+		  					<a href="#about" class="footer_link">About me</a>
+		  				</li>
+
+		  				<li>
+		  					<a href="#work" class="footer_link">Portfolio</a>
+		  				</li>
+
+		  				<li>
+		  					<a href="#services" class="footer_link">Services</a>
+		  				</li>
+		  			</ul>
+
+		  			<ul class="footer_social">
+		  				<!----><a href="https://github.com/yvonhk229" target="_blank" class="footer_social-link">
+		  					<i class="bx bxl-github"></i>
+		  				</a>
+
+		  				<a href="" target="_blank" class="footer_social-link">
+		  					<i class="bx bxl-linkedin"></i>
+		  				</a>
+
+		  				<!----><a href="" target="_blank" class="footer_social-link">
+		  					<i class="bx bxl-twitter"></i>
+		  				</a>
+
+		  			</ul>
+
+		  			<span class="footer_copy">
+		  				&#169; Yvon H.K  .All rights reserved
+		  			</span>
+		  		</div>
+	</footer>
+
+
+  	<!--YYYYYYYYYYYYYYYYYYYY TYPELIGHTER YYYYYYYYYYYYYYYYYYYY-->
+  	<script type="text/javascript" src="{% static 'assets/js/typelighter.min.js' %}"></script>
+
+  	<!--YYYYYYYYYYYYYYYYYYYY SCROLLREVEAL YYYYYYYYYYYYYYYYYYYY-->
+  	<script type="text/javascript" src="{% static 'assets/js/scrollreveal.min.js' %}"></script>
+
+
+  	<!--YYYYYYYYYYYYYYYYYYYY MIXIUP FILTER YYYYYYYYYYYYYYYYYYYY-->
+  	<script type="text/javascript" src="{% static 'assets/js/mixitup.min.js' %}"></script>
+
+
+  	<!--YYYYYYYYYYYYYYYYYYYY MAIN JS YYYYYYYYYYYYYYYYYYYY-->
+  	<script type="text/javascript" src="{% static 'assets/js/main.js' %}"></script>
+</body>
+</html>
